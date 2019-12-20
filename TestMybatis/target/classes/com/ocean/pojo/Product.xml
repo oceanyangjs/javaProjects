@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper  namespace="com.ocean.pojo">
+    <resultMap id="productBean" type="Product">
+        <id column="pid" property="id" />
+        <result column="pname" property="name" />
+        <result column="price" property="price" />
+        <!--多对一的关系-->
+        <association property="category" javaType="Category">
+            <id column="cid" property="id"/>
+            <result column="cname" property="name"/>
+        </association>
+    </resultMap>
+
+    <select id="listProduct" resultMap="productBean" >
+        select c.*, p.*, c.id 'cid', p.id 'pid', c.name 'cname', p.name 'pname' from category_ c left join product_ p on c.id = p.cid
+    </select>
+    <select id="getProduct" resultMap="productBean">
+        select c.*, p.*, c.id 'cid', p.id 'pid', c.name 'cname', p.name 'pname'
+        from category_ c
+        left join product_ p on c.id = p.cid
+        where p.id = #{id}
+    </select>
+    <!--mybatis if使用-->
+    <select id="listIfProduct" resultType="Product">
+        select * from product_
+        <if test="name!=null">
+            where name like concat('%',#{name},'%')
+        </if>
+    </select>
+    <!--mybatis where使用-->
+    <select id="listWhereProduct" resultType="Product">
+--         使用where
+        <where>
+            <if test="name!=null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="price!=null and price!=0">
+                and price > #{price}
+            </if>
+        </where>
+--          使用trim
+        <!--<trim prefix="WHERE" prefixOverrides="AND |OR ">-->
+            <!--<if test="name!=null">-->
+                <!--and name like concat('%',#{name},'%')-->
+            <!--</if>-->
+            <!--<if test="price!=null and price!=0">-->
+                <!--and price > #{price}-->
+            <!--</if>-->
+        <!--</trim>-->
+    </select>
+    <update id="updateSetProduct" parameterType="String">
+--         使用set
+        <set>
+            <if test="name != null">name=#{name},</if>
+            <if test="price != null">price=#{price}</if>
+        </set>
+--         使用trim
+        <!--<trim prefix="SET" suffixOverrides="">-->
+            <!--<if test="name != null">name=#{name},</if>-->
+            <!--<if test="price != null">price=#{price}</if>-->
+        <!--</trim>-->
+    </update>
+    <select id="listWhenProduct" resultType="Product">
+        SELECT * FROM product_
+        <where>
+            <choose>
+                <when test="name != null">
+                    and name like concat('%',#{name},'%')
+                </when>
+                <when test="price !=null and price != 0">
+                    and price > #{price}
+                </when>
+                <otherwise>
+                    and id >1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <select id="listForeachProduct" resultType="Product">
+        SELECT * FROM product_
+        WHERE ID in
+        <foreach item="item" index="index" collection="list"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+    <!-- 本来的模糊查询方式 -->
+    <!--         <select id="listProduct" resultType="Product"> -->
+    <!--             select * from   product_  where name like concat('%',#{0},'%') -->
+    <!--         </select> -->
+
+    <select id="listBindProduct" resultType="Product">
+        <bind name="likename" value="'%' + name + '%'" />
+        select * from   product_  where name like #{likename}
+    </select>
+</mapper>

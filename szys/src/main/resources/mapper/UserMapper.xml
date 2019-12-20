@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chan.szys.mapper.UserMapper">
+    <!--<resultMap id="StudentResultMap" type="com.suixingpay.datas.manager.entity.Student">-->
+        <!--<result column="id" property="id"/>-->
+        <!--<result column="name" property="name"/>-->
+        <!--<result column="age" property="age"/>-->
+        <!--<result column="sex" property="sex"/>-->
+    <!--</resultMap>-->
+
+    <!--<sql id="Base_Column_List">-->
+        <!--id, name, age, sex-->
+    <!--</sql>-->
+
+    <!--<select id="findAllByXml" resultMap="StudentResultMap">-->
+        <!--SELECT-->
+        <!--<include refid="Base_Column_List"/>-->
+        <!--FROM-->
+        <!--c_student-->
+    <!--</select>-->
+
+    <select id="list" resultType="com.chan.szys.pojo.User">
+        select * from user
+    </select>
+
+</mapper>

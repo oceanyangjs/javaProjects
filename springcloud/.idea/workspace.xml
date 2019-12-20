@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c18fd9d3-081a-4523-83d4-a0a6f5b44782" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
+    <ignored path="$PROJECT_DIR$/productdataservice/target/" />
+    <ignored path="$PROJECT_DIR$/productviewserviceribbon/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ProductClientRibbon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/client/ProductClientRibbon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestTemplate.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14364">
+              <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+              <folding>
+                <marker date="1575450106432" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1575450106432" expanded="false" signature="154:2649" ph="..." />
+                <marker date="1575450106432" expanded="true" signature="4289:5966" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="6033:6104" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="6179:6582" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="6670:6943" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="7008:7019" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="7049:7055" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="7124:7252" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="7303:7314" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="7339:7345" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="7410:7941" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="8009:8131" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="8186:8197" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="8228:8234" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="8366:8725" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="8862:9216" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="9321:9656" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="9790:10121" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="10260:10591" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="10698:11015" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="11118:11270" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="11378:11525" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="11601:11729" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="11865:12146" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="12287:12568" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="12677:12944" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="13103:13463" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="13627:13982" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="14114:14437" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="14598:14930" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="15096:15428" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="15562:15880" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="15991:16183" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="16299:16486" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="16570:16738" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="16898:17259" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="17424:17780" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="17913:18237" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="18325:18450" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="18543:18663" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="18724:18825" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="18933:19248" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="19361:19671" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="19752:20043" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="20231:20560" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="20753:21082" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="21243:21558" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="21767:22124" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="22338:22695" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="22877:23220" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="23346:23701" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="23848:24231" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="24447:24618" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="24839:25010" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="25199:25286" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="25490:26576" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="26688:27278" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="27365:27447" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="27532:27611" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="27715:27808" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="27908:27994" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="28059:28070" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="28099:28105" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="28160:28241" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="28327:28504" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="28364:28375" ph="{}" />
+                <marker date="1575450106432" expanded="false" signature="28444:28459" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="28488:28498" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="28607:29584" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="28769:29073" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="29168:29578" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="29679:34554" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="29803:29818" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="29848:29858" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="29960:30322" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="30408:34548" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="30813:30906" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="32215:32333" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="33326:33436" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="34629:37356" ph="{...}" />
+                <marker date="1575450106432" expanded="false" signature="34762:34777" ph=" { " />
+                <marker date="1575450106432" expanded="false" signature="34810:34820" ph=" }" />
+                <marker date="1575450106432" expanded="true" signature="34902:36607" ph="{...}" />
+                <marker date="1575450106432" expanded="true" signature="36706:37350" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productviewserviceribbon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1836">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productdataservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1476">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productdataservice/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDataServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/ProductDataServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1764">
+              <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2066#2067#0" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductViewServiceRibbonApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/ProductViewServiceRibbonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2358#2359#0" expanded="true" />
+                <element signature="e#2402#2403#0" expanded="true" />
+                <element signature="e#2465#2466#0" expanded="true" />
+                <element signature="e#2506#2507#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1.</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/java/com/ocean/EureraServerApplication.java" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/java/com/ocean/EurekaServerApplication.java" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/App.java" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/resources/templates/products.html" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/client/ProductClientRibbon.java" />
+        <option value="$PROJECT_DIR$/productdataservice/pom.xml" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/ProductViewServiceRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/ProductDataServiceApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1280" />
+    <option name="height" value="642" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ocean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productdataservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="productviewserviceribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28492647" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ProductViewServiceRibbonApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="EurekaServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ocean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ocean.EurekaServerApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="eurekaserver" />
+      <envs />
+    </configuration>
+    <configuration name="ProductViewServiceRibbonApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ocean.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.ocean.springcloud.ProductViewServiceRibbonApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="productviewserviceribbon" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="ProductDataServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ocean.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ocean.springcloud.ProductDataServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="productdataservice" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.EurekaServerApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ProductDataServiceApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ProductViewServiceRibbonApplication" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.ProductViewServiceRibbonApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.ProductDataServiceApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Application.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c18fd9d3-081a-4523-83d4-a0a6f5b44782" name="Default" comment="" />
+      <created>1575449736648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575449736648</updated>
+      <workItem from="1575449740374" duration="11342000" />
+      <workItem from="1575974809580" duration="595000" />
+      <workItem from="1576047644611" duration="310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12247000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51265126" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3058306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24532454" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32453245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13971397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java</url>
+          <line>19</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/client/ProductClientRibbon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16272">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding>
+            <marker date="1575450106432" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1575450106432" expanded="false" signature="154:2649" ph="..." />
+            <marker date="1575450106432" expanded="true" signature="4289:5966" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6033:6104" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6179:6582" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6670:6943" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7008:7019" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7049:7055" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7124:7252" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7303:7314" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7339:7345" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7410:7941" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8009:8131" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="8186:8197" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="8228:8234" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="8366:8725" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8862:9216" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9321:9656" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9790:10121" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10260:10591" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10698:11015" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11118:11270" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11378:11525" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11601:11729" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11865:12146" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12287:12568" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12677:12944" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13103:13463" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13627:13982" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14114:14437" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14598:14930" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15096:15428" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15562:15880" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15991:16183" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16299:16486" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16570:16738" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16898:17259" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17424:17780" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17913:18237" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18325:18450" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18543:18663" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18724:18825" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18933:19248" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19361:19671" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19752:20043" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20231:20560" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20753:21082" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21243:21558" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21767:22124" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22338:22695" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22877:23220" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23346:23701" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23848:24231" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24447:24618" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24839:25010" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25199:25286" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25490:26576" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="26688:27278" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27365:27447" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27532:27611" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27715:27808" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27908:27994" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="28059:28070" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28099:28105" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28160:28241" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28327:28504" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28364:28375" ph="{}" />
+            <marker date="1575450106432" expanded="false" signature="28444:28459" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28488:28498" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28607:29584" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28769:29073" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29168:29578" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29679:34554" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="29803:29818" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="29848:29858" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="29960:30322" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30408:34548" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30813:30906" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="32215:32333" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="33326:33436" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="34629:37356" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="34762:34777" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="34810:34820" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="34902:36607" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="36706:37350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/ProductDataServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/ProductViewServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/client/ProductClientRibbon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16272">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding>
+            <marker date="1575450106432" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1575450106432" expanded="false" signature="154:2649" ph="..." />
+            <marker date="1575450106432" expanded="true" signature="4289:5966" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6033:6104" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6179:6582" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6670:6943" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7008:7019" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7049:7055" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7124:7252" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7303:7314" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7339:7345" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7410:7941" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8009:8131" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="8186:8197" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="8228:8234" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="8366:8725" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8862:9216" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9321:9656" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9790:10121" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10260:10591" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10698:11015" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11118:11270" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11378:11525" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11601:11729" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11865:12146" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12287:12568" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12677:12944" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13103:13463" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13627:13982" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14114:14437" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14598:14930" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15096:15428" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15562:15880" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15991:16183" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16299:16486" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16570:16738" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16898:17259" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17424:17780" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17913:18237" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18325:18450" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18543:18663" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18724:18825" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18933:19248" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19361:19671" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19752:20043" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20231:20560" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20753:21082" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21243:21558" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21767:22124" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22338:22695" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22877:23220" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23346:23701" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23848:24231" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24447:24618" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24839:25010" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25199:25286" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25490:26576" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="26688:27278" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27365:27447" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27532:27611" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27715:27808" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27908:27994" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="28059:28070" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28099:28105" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28160:28241" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28327:28504" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28364:28375" ph="{}" />
+            <marker date="1575450106432" expanded="false" signature="28444:28459" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28488:28498" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28607:29584" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28769:29073" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29168:29578" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29679:34554" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="29803:29818" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="29848:29858" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="29960:30322" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30408:34548" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30813:30906" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="32215:32333" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="33326:33436" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="34629:37356" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="34762:34777" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="34810:34820" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="34902:36607" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="36706:37350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/ProductDataServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/ProductViewServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1753">
+          <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="64" column="6" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/test/java/com/ocean/springcloud/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/Client.java" />
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/resources/templates/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="41" column="7" lean-forward="false" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/com/ocean/EurekaServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14364">
+          <caret line="452" column="0" lean-forward="false" selection-start-line="452" selection-start-column="0" selection-end-line="452" selection-end-column="0" />
+          <folding>
+            <marker date="1575450106432" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1575450106432" expanded="false" signature="154:2649" ph="..." />
+            <marker date="1575450106432" expanded="true" signature="4289:5966" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6033:6104" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6179:6582" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="6670:6943" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7008:7019" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7049:7055" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7124:7252" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="7303:7314" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="7339:7345" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="7410:7941" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8009:8131" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="8186:8197" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="8228:8234" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="8366:8725" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="8862:9216" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9321:9656" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="9790:10121" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10260:10591" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="10698:11015" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11118:11270" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11378:11525" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11601:11729" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="11865:12146" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12287:12568" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="12677:12944" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13103:13463" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="13627:13982" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14114:14437" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="14598:14930" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15096:15428" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15562:15880" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="15991:16183" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16299:16486" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16570:16738" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="16898:17259" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17424:17780" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="17913:18237" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18325:18450" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18543:18663" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18724:18825" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="18933:19248" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19361:19671" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="19752:20043" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20231:20560" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="20753:21082" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21243:21558" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="21767:22124" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22338:22695" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="22877:23220" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23346:23701" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="23848:24231" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24447:24618" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="24839:25010" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25199:25286" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="25490:26576" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="26688:27278" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27365:27447" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27532:27611" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27715:27808" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="27908:27994" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="28059:28070" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28099:28105" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28160:28241" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28327:28504" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28364:28375" ph="{}" />
+            <marker date="1575450106432" expanded="false" signature="28444:28459" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="28488:28498" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="28607:29584" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="28769:29073" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29168:29578" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="29679:34554" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="29803:29818" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="29848:29858" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="29960:30322" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30408:34548" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="30813:30906" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="32215:32333" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="33326:33436" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="34629:37356" ph="{...}" />
+            <marker date="1575450106432" expanded="false" signature="34762:34777" ph=" { " />
+            <marker date="1575450106432" expanded="false" signature="34810:34820" ph=" }" />
+            <marker date="1575450106432" expanded="true" signature="34902:36607" ph="{...}" />
+            <marker date="1575450106432" expanded="true" signature="36706:37350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/client/ProductClientRibbon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" column="40" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productdataservice/src/main/java/com/ocean/springcloud/ProductDataServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/productviewserviceribbon/src/main/java/com/ocean/springcloud/ProductViewServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2358#2359#0" expanded="true" />
+            <element signature="e#2402#2403#0" expanded="true" />
+            <element signature="e#2465#2466#0" expanded="true" />
+            <element signature="e#2506#2507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28492647" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>productdataservice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.28492647" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
