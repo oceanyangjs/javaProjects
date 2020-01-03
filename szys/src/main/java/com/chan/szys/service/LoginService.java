@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface LoginService {
     public List<User> list();
+    public int add(User user) throws Exception;
 }

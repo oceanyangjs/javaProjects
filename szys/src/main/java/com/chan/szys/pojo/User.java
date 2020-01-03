@@ -1,24 +1,44 @@
 package com.chan.szys.pojo;
 
+import java.sql.Timestamp;
+
 public class User {
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public int id;
-    public String deviceId;
+    public String id;
+    public String password;
     public String name;
+    public long registerTime;
+    public long updateTime;
 
-    public String getDeviceId() {
-        return deviceId;
+    public long getRegisterTime() {
+        return registerTime;
     }
 
-    public void setDeviceId(String deviceId) {
-        this.deviceId = deviceId;
+    public void setRegisterTime(long registerTime) {
+        this.registerTime = registerTime;
+    }
+
+    public long getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(long updateTime) {
+        this.updateTime = updateTime;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getName() {
@@ -29,9 +49,4 @@ public class User {
         this.name = name;
     }
 
-    @Override
-    public String toString(){
-        String str = "User----deviceId=" + this.deviceId + "&&&&name=" + name;
-        return str;
-    }
 }

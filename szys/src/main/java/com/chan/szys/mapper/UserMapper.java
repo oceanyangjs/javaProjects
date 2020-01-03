@@ -8,7 +8,7 @@ public interface UserMapper {
 //    获取用户名单
     public List<User> list();
 //    添加用户
-    public void add(User user);
+    public int add(User user) throws Exception;
 //    查询用户
     public void query(User user);
 }

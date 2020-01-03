@@ -17,4 +17,11 @@ public class LoginServiceImpl implements LoginService {
         List<User> listUser = userMapper.list();
         return listUser;
     }
+
+    @Override
+    public int add(User user) throws Exception{
+        return userMapper.add(user);
+    }
+
+
 }
