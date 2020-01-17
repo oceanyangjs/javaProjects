@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.chan.szys.mapper.RankMapper">
+
+    <insert id="add" parameterType="com.chan.szys.pojo.Rank" useGeneratedKeys="true" keyProperty="id">
+        insert into ${db} (`user_id`,`num`,`calcu`,`digit`,`operate`,`timelast`,`accuracy`,`data`,`insert_time`) VALUES (#{userId},#{num},#{calcu},#{digit},#{operate},#{timelast},#{accuracy},#{data},#{insertTime})
+    </insert>
+
+    <select id="rank" resultType="com.chan.szys.datatype.RankData">
+        SELECT a.id,a.user_id,b.name,a.timelast,a.accuracy,a.timelast*a.accuracy as score,a.insert_time as insert_time FROM ${db} a INNER JOIN `user` b ON a.user_id = b.id WHERE a.num = #{num} and a.calcu = #{calcu} and a.digit = #{digit} and a.operate = #{operate} order BY a.timelast * a.accuracy limit #{rankcnt}
+    </select>
+
+    <select id="getDetail" resultType="java.lang.String">
+        SELECT `data` FROM ${db} WHERE id = ${id}
+    </select>
+
+</mapper>

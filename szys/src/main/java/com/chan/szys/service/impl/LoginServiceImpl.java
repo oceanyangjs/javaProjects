@@ -23,5 +23,15 @@ public class LoginServiceImpl implements LoginService {
         return userMapper.add(user);
     }
 
+    @Override
+    public User query(String id) throws Exception {
+        return userMapper.query(id);
+    }
+
+    @Override
+    public int changename(User user) throws Exception {
+        return userMapper.changename(user);
+    }
+
 
 }

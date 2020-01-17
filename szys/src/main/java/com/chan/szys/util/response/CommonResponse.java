@@ -1,4 +1,4 @@
-package com.chan.szys.util;
+package com.chan.szys.util.response;
 
 public class CommonResponse {
     private int code;

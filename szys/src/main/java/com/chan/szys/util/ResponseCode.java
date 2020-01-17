@@ -3,9 +3,12 @@ package com.chan.szys.util;
 public enum  ResponseCode {
     SUCCESS(200,"SUCCESS"),
     ERROR(1001,"ERROR"),
-    NEED_LOGIN(1002,"NEED_LOGIN"),
-    ILLEGAL_ARGUMENT(1003,"ILLEGAL_ARGUMENT");
-
+    DB_ERROR(1002,"DB_ERROR"),
+    NO_USER(1003,"NO_USER"),
+    PARAM_ERROR(1004,"PARAM_ERROR"),
+    TOKEN_ERROR(1005,"TOKEN_ERROR"),
+    NAME_FILTER_ERROR(1006,"NAME_FILTER_ERROR"),
+    FINISH(99999,"FINISH");
     private final int code;
     private final String desc;
 

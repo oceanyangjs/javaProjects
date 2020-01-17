@@ -7,7 +7,15 @@
     </select>
 
     <insert id="add" parameterType="com.chan.szys.pojo.User">
-        insert into `user` (`id`,`name`,`password`,`register_time`,`update_time`) VALUES (#{id},#{name},#{password},#{registerTime},#{updateTime})
+        insert into `user` (`id`,`name`,`password`,`is_new`,`register_time`,`update_time`) VALUES (#{id},#{name},#{password},1,#{registerTime},#{updateTime})
     </insert>
+
+    <select id="query" parameterType="java.lang.String" resultType="com.chan.szys.pojo.User">
+        select * from `user` WHERE id = #{id,jdbcType=VARCHAR}
+    </select>
+
+    <update id="changename" parameterType="com.chan.szys.pojo.User">
+        update `user` SET name=#{name}, is_new=#{isNew} WHERE id = #{id}
+    </update>
 
 </mapper>

@@ -14,8 +14,17 @@ public class User {
     public String id;
     public String password;
     public String name;
+    public int isNew;
     public long registerTime;
     public long updateTime;
+
+    public int getIsNew() {
+        return isNew;
+    }
+
+    public void setIsNew(int isNew) {
+        this.isNew = isNew;
+    }
 
     public long getRegisterTime() {
         return registerTime;

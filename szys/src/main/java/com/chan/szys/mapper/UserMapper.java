@@ -10,5 +10,7 @@ public interface UserMapper {
 //    添加用户
     public int add(User user) throws Exception;
 //    查询用户
-    public void query(User user);
+    public User query(String name);
+//    更新名字
+    public int changename(User user) throws Exception;
 }
