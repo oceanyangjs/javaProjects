@@ -18,4 +18,8 @@
         update `user` SET name=#{name}, is_new=#{isNew} WHERE id = #{id}
     </update>
 
+    <select id="dulpname" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select count(0) from `user` WHERE name = #{name,jdbcType=VARCHAR}
+    </select>
+
 </mapper>

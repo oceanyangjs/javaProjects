@@ -6,15 +6,13 @@ import com.chan.szys.mapper.RankMapper;
 import com.chan.szys.pojo.Rank;
 import com.chan.szys.service.RankService;
 import com.chan.szys.util.Base64Util;
-import com.chan.szys.util.RankUtil;
+import com.chan.szys.util.CommonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.Tuple;
 
 import java.util.*;
-
-import static com.chan.szys.util.RankUtil.rankUserKey;
 
 @Service
 public class RankServiceImpl implements RankService {
@@ -45,32 +43,28 @@ public class RankServiceImpl implements RankService {
             result = -1;
         }else{
             result = 0;
-            Double score = timelast * accuracy;
-            String rankKey = String.format(RankUtil.rankKey,db,num,calcu,digit,operate);
-            String rankUserKey = String.format(RankUtil.rankUserKey,rank.getId(),userId, Base64Util.encode(userName),timelast,accuracy,score,insertTime);
+//            Double score = timelast * accuracy;
+            String rankKey = String.format(CommonUtil.rankKey,db,num,calcu,digit,operate);
+//            String rankUserKey = String.format(CommonUtil.rankUserKey,rank.getId(),userId, Base64Util.encode(userName),timelast,accuracy,score,insertTime);
             Boolean exist = redisUtil.exists(rankKey);
             if(exist){//redis存在数据了
-                //插入数据，获取排名
-                redisUtil.zadd(rankKey,score,rankUserKey);
-                Set<Tuple> scores = redisUtil.zrevrangeWithScores(rankKey,0,RankUtil.rankcnt-1);
-                Object rs = redisUtil.zrevrank(rankKey,rankUserKey);
-                if(rs == null){
-                    result = 0;
-                }else{
-                    result = Integer.parseInt(rs.toString()) + 1;
-                }
-            }else{//redis不存在数据,去数据库查询，同时更新到redis
-                List<RankData> rankData = rankMapper.rank(db,num,calcu,digit,operate,100);//取前100数据
-                for (int i = 0;i<rankData.size();i++){
-                    String rankUserKeyTmp = String.format(RankUtil.rankUserKey,rankData.get(i).getId(),rankData.get(i).getUserId(),Base64Util.encode(rankData.get(i).getName()),rankData.get(i).getTimelast(),rankData.get(i).getAccuracy(),rankData.get(i).getScore(),rankData.get(i).getInsertTime());
-                    redisUtil.zadd(rankKey,rankData.get(i).getScore(),rankUserKeyTmp);
-                }
+                redisUtil.del(rankKey);
+            }
+            List<RankData> rankData;
+            if(db.equals("numrank")){
+                rankData = rankMapper.rank(db,num,calcu,digit,operate, CommonUtil.rankcnt);//取前100数据
+            }else{
+                rankData = rankMapper.timerank(db,num,calcu,digit,operate, CommonUtil.rankcnt);//取前100数据
+            }
+            for (int i = 0;i<rankData.size();i++){
+                String rankUserKeyTmp = String.format(CommonUtil.rankUserKey,rankData.get(i).getId(),rankData.get(i).getUserId(),Base64Util.encode(rankData.get(i).getName()),rankData.get(i).getTimelast(),rankData.get(i).getAccuracy(),rankData.get(i).getScore(),rankData.get(i).getInsertTime());
+                redisUtil.zadd(rankKey,rankData.get(i).getScore(),rankUserKeyTmp);
+            }
 //                result = redisUtil.zrevrank(rankKey,rankUserKey).intValue();
-                Object rs = redisUtil.zrevrank(rankKey,rankUserKey);
-                if(rs == null){
-                    result = 0;
-                }else{
-                    result = Integer.parseInt(rs.toString()) + 1;
+            for(int i = 0;i<rankData.size();i++){
+                if(rankData.get(i).getUserId().equals(userId) && rankData.get(i).getInsertTime() == insertTime){
+                    result = i + 1;
+                    break;
                 }
             }
         }
@@ -80,12 +74,12 @@ public class RankServiceImpl implements RankService {
     @Override
     public List<RankData> get(String userId, String userName, String db, int num, int calcu, int digit, int operate) throws Exception {
 //        先在redis查询，查询不到则到mysql查询
-        String rankKey = String.format(RankUtil.rankKey,db,num,calcu,digit,operate);
+        String rankKey = String.format(CommonUtil.rankKey,db,num,calcu,digit,operate);
         Boolean exist = redisUtil.exists(rankKey);
         List<RankData> rankData = new ArrayList<>();
         if(exist){//redis存在数据了
             //从redis读取排名
-            Set<Tuple> scores = redisUtil.zrevrangeWithScores(rankKey,0,RankUtil.rankcnt-1);
+            Set<Tuple> scores = redisUtil.zrevrangeWithScores(rankKey,0, CommonUtil.rankcnt-1);
             Iterator<Tuple> it = scores.iterator();
             while (it.hasNext()) {
 //                rank:user:id:%s:userId:%s:userName:%s:timelast:%s:accuracy:%s:score:%s:time:%s
@@ -102,9 +96,14 @@ public class RankServiceImpl implements RankService {
                 rankData.add(item);
             }
         }else{//redis不存在数据,去数据库查询，同时更新到redis
-            rankData = rankMapper.rank(db,num,calcu,digit,operate,100);//取前100数据
+//            根据具体的数据进行区分
+            if(db.equals("numrank")){//如果是计数排序，走原来的逻辑；如果是计时，走一个单独的逻辑
+                rankData = rankMapper.rank(db,num,calcu,digit,operate, CommonUtil.rankcnt);//取前100数据
+            }else{
+                rankData = rankMapper.timerank(db,num,calcu,digit,operate, CommonUtil.rankcnt);//取前100数据
+            }
             for (int i = 0;i<rankData.size();i++){
-                String rankUserKeyTmp = String.format(RankUtil.rankUserKey,rankData.get(i).getId(),rankData.get(i).getUserId(),Base64Util.encode(rankData.get(i).getName()),rankData.get(i).getTimelast(),rankData.get(i).getAccuracy(),rankData.get(i).getScore(),rankData.get(i).getInsertTime());
+                String rankUserKeyTmp = String.format(CommonUtil.rankUserKey,rankData.get(i).getId(),rankData.get(i).getUserId(),Base64Util.encode(rankData.get(i).getName()),rankData.get(i).getTimelast(),rankData.get(i).getAccuracy(),rankData.get(i).getScore(),rankData.get(i).getInsertTime());
                 redisUtil.zadd(rankKey,rankData.get(i).getScore(),rankUserKeyTmp);
             }
         }

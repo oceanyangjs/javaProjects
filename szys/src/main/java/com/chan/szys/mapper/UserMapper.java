@@ -13,4 +13,6 @@ public interface UserMapper {
     public User query(String name);
 //    更新名字
     public int changename(User user) throws Exception;
+//    名字存在性检测
+    public int dulpname(String name) throws Exception;
 }

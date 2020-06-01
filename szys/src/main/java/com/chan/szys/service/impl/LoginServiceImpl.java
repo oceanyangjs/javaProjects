@@ -33,5 +33,10 @@ public class LoginServiceImpl implements LoginService {
         return userMapper.changename(user);
     }
 
+    @Override
+    public int dulpname(String name) throws Exception {
+        return userMapper.dulpname(name);
+    }
+
 
 }

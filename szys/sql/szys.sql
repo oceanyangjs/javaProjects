@@ -22,11 +22,11 @@ DROP TABLE IF EXISTS `numrank`;
 CREATE TABLE `numrank` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` varchar(255) NOT NULL,
-  `num` int(11) NOT NULL DEFAULT '0' COMMENT '123分别表示（10道，30道，50道）',
+  `num` int(11) NOT NULL DEFAULT '0' COMMENT '123分别表示（10道，30道，50道或者限时的1 2 3分钟）',
   `calcu` int(11) NOT NULL DEFAULT '0' COMMENT '1234表示加减乘除',
   `digit` int(11) NOT NULL DEFAULT '0' COMMENT '12345表示12345位',
   `operate` int(11) NOT NULL DEFAULT '0' COMMENT '操作数 2 3',
-  `timelast` double(11,1) NOT NULL DEFAULT '0.0' COMMENT '耗时',
+  `timelast` double(11,1) NOT NULL DEFAULT '0.0' COMMENT '限数耗时或者限时的回答题目数',
   `accuracy` double(11,1) NOT NULL DEFAULT '0.0' COMMENT '正确率',
   `data` text NOT NULL COMMENT '答题数据',
   `insert_time` bigint(20) NOT NULL,

@@ -10,4 +10,5 @@ public interface LoginService {
     public int add(User user) throws Exception;
     public User query(String id) throws Exception;
     public int changename(User user) throws Exception;
+    public int dulpname(String name) throws Exception;
 }

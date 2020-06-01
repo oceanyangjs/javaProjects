@@ -2,7 +2,9 @@ package com.chan.szys.controller;
 
 import com.chan.szys.pojo.User;
 import com.chan.szys.service.LoginService;
+import com.chan.szys.util.CommonUtil;
 import com.chan.szys.util.JwtUtil;
+import com.chan.szys.util.SensitiveWordFilter;
 import com.chan.szys.util.response.ChangenameResponse;
 import com.chan.szys.util.response.CommonResponse;
 import com.chan.szys.util.response.RegisterResponse;
@@ -11,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Set;
 import java.util.UUID;
 
 @RestController
@@ -39,7 +42,7 @@ public class LoginController {
             try {
                 int result = loginService.add(user);
                 if(result == 1){
-                    long ttlMillis = 15 * 24 * 3600 * 1000;//有效期15天
+                    long ttlMillis = CommonUtil.tokenlast;//有效期15天
                     String jwttoken = JwtUtil.createJWT(ttlMillis,user);
                     CommonResponse returnresult = new CommonResponse();
                     returnresult.setCode(ResponseCode.SUCCESS.getCode());
@@ -69,7 +72,7 @@ public class LoginController {
             try {
                 User user = loginService.query(id);
                 if(user != null){
-                    long ttlMillis = 15 * 24 * 3600 * 1000;//有效期15天
+                    long ttlMillis = CommonUtil.tokenlast;//有效期15天
                     String jwttoken = JwtUtil.createJWT(ttlMillis,user);
                     CommonResponse returnresult = new CommonResponse();
                     returnresult.setToken(jwttoken);
@@ -116,8 +119,24 @@ public class LoginController {
             }else{
                 Boolean check = JwtUtil.isVerify(jwttoken,user);
                 if(check){//token有效
-//                名字合法性过滤 == 暂时省略
 //                逻辑处理
+//                名字合法性过滤 == 暂时省略
+                    SensitiveWordFilter filter = new SensitiveWordFilter();
+                    Set<String> set = filter.getSensitiveWord(userName, 1);
+                    if(set.size() > 0){
+                        CommonResponse returnresult = new CommonResponse();
+                        returnresult.setCode(ResponseCode.NAME_FILTER_ERROR.getCode());
+                        returnresult.setErrmsg(ResponseCode.NAME_FILTER_ERROR.getDesc());
+                        return returnresult;
+                    }
+//                    先做名字存在性检测
+                    int num = loginService.dulpname(userName);
+                    if(num > 0){
+                        CommonResponse returnresult = new CommonResponse();
+                        returnresult.setCode(ResponseCode.NAME_REPEAT_ERROR.getCode());
+                        returnresult.setErrmsg(ResponseCode.NAME_REPEAT_ERROR.getDesc());
+                        return returnresult;
+                    }
                     User usertemp = new User();
                     usertemp.setName(userName);
                     usertemp.setId(userId);
@@ -125,7 +144,7 @@ public class LoginController {
                     int result = loginService.changename(usertemp);
                     if(result > 0){//需要做jwt更新
                         user.setName(userName);
-                        long ttlMillis = 15 * 24 * 3600 * 1000;//有效期15天
+                        long ttlMillis = CommonUtil.tokenlast;//有效期15天
                         String token = JwtUtil.createJWT(ttlMillis,user);
                         CommonResponse returnresult = new CommonResponse();
                         returnresult.setCode(ResponseCode.SUCCESS.getCode());

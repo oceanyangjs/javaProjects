@@ -7,7 +7,11 @@
     </insert>
 
     <select id="rank" resultType="com.chan.szys.datatype.RankData">
-        SELECT a.id,a.user_id,b.name,a.timelast,a.accuracy,a.timelast*a.accuracy as score,a.insert_time as insert_time FROM ${db} a INNER JOIN `user` b ON a.user_id = b.id WHERE a.num = #{num} and a.calcu = #{calcu} and a.digit = #{digit} and a.operate = #{operate} order BY a.timelast * a.accuracy limit #{rankcnt}
+        SELECT a.id,a.user_id,b.name,a.timelast,a.accuracy,a.timelast*(100-a.accuracy) as score,a.insert_time as insert_time FROM ${db} a INNER JOIN `user` b ON a.user_id = b.id WHERE a.num = #{num} and a.calcu = #{calcu} and a.digit = #{digit} and a.operate = #{operate} order BY a.timelast * (100-a.accuracy) ASC ,a.timelast ASC  limit #{rankcnt}
+    </select>
+
+    <select id="timerank" resultType="com.chan.szys.datatype.RankData">
+        SELECT a.id,a.user_id,b.name,a.timelast,a.accuracy,a.timelast*a.accuracy as score,a.insert_time as insert_time FROM ${db} a INNER JOIN `user` b ON a.user_id = b.id WHERE a.num = #{num} and a.calcu = #{calcu} and a.digit = #{digit} and a.operate = #{operate} order BY a.timelast * a.accuracy DESC ,a.timelast ASC  limit #{rankcnt}
     </select>
 
     <select id="getDetail" resultType="java.lang.String">

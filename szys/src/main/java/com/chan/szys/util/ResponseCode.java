@@ -8,6 +8,8 @@ public enum  ResponseCode {
     PARAM_ERROR(1004,"PARAM_ERROR"),
     TOKEN_ERROR(1005,"TOKEN_ERROR"),
     NAME_FILTER_ERROR(1006,"NAME_FILTER_ERROR"),
+    NAME_REPEAT_ERROR(1007,"NAME_REPEAT_ERROR"),
+    GAME_VERSION_ERROR(1008,"NAME_REPEAT_ERROR"),
     FINISH(99999,"FINISH");
     private final int code;
     private final String desc;
