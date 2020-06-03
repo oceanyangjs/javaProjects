@@ -133,10 +133,10 @@ public class RankController {
                         Collections.sort(result, new Comparator<RankData>() {
                             @Override
                             public int compare(RankData o1, RankData o2) {
-                                if (o1.getScore() < o2.getScore() || (o1.getScore() == o2.getScore() && o1.getTimelast() < o2.getTimelast())) {
+                                if (o1.getScore() < o2.getScore() || (o1.getScore() == o2.getScore() && o1.getAccuracy() > o2.getAccuracy())) {
                                     return -1;
                                 }
-                                if (o1.getScore() == o2.getScore() && o1.getTimelast() == o2.getTimelast()) {
+                                if (o1.getScore() == o2.getScore() && o1.getAccuracy() == o2.getAccuracy()) {
                                     return 0;
                                 }
                                 return 1;
@@ -171,7 +171,7 @@ public class RankController {
                         Collections.sort(result, new Comparator<RankData>() {
                             @Override
                             public int compare(RankData o1, RankData o2) {
-                                if (o1.getScore() > o2.getScore() || (o1.getScore() == o2.getScore() && o1.getTimelast() > o2.getTimelast())) {
+                                if (o1.getScore() > o2.getScore() || (o1.getScore() == o2.getScore() && o1.getAccuracy() > o2.getAccuracy())) {
                                     return -1;
                                 }
                                 if (o1.getScore() == o2.getScore() && o1.getTimelast() == o2.getTimelast()) {

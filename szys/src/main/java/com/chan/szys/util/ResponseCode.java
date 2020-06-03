@@ -9,7 +9,7 @@ public enum  ResponseCode {
     TOKEN_ERROR(1005,"TOKEN_ERROR"),
     NAME_FILTER_ERROR(1006,"NAME_FILTER_ERROR"),
     NAME_REPEAT_ERROR(1007,"NAME_REPEAT_ERROR"),
-    GAME_VERSION_ERROR(1008,"NAME_REPEAT_ERROR"),
+    GAME_VERSION_ERROR(1008,"GAME_VERSION_ERROR"),
     FINISH(99999,"FINISH");
     private final int code;
     private final String desc;
