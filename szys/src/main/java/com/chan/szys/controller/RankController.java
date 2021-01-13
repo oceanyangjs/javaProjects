@@ -1,17 +1,16 @@
 package com.chan.szys.controller;
 
+import com.chan.szys.util.CommonUtil;
+import com.chan.szys.util.JwtUtil;
 import com.chan.szys.datatype.RankData;
 import com.chan.szys.pojo.User;
 import com.chan.szys.service.LoginService;
 import com.chan.szys.service.RankService;
-import com.chan.szys.util.JwtUtil;
-import com.chan.szys.util.CommonUtil;
 import com.chan.szys.util.ResponseCode;
 import com.chan.szys.util.response.CommonResponse;
 import com.chan.szys.util.response.GetdataResponse;
 import com.chan.szys.util.response.SetdataResponse;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

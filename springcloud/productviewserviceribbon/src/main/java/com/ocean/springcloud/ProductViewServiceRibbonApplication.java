@@ -27,7 +27,7 @@ import java.util.concurrent.TimeoutException;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableFeignClients
+//@EnableFeignClients
 public class ProductViewServiceRibbonApplication
 {
     public static void main( String[] args )

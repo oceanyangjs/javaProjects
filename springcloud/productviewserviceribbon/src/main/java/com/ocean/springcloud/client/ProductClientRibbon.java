@@ -10,19 +10,19 @@ import org.springframework.web.client.RestTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
-//@Component
-@FeignClient(value = "PRODUCT-DATA-SERVICE")
-public interface ProductClientRibbon {
-//    @Autowired
-//    RestTemplate restTemplate;
+@Component
+//@FeignClient(value = "PRODUCT-DATA-SERVICE")
+public class ProductClientRibbon {
+    @Autowired
+    RestTemplate restTemplate;
 
 //    ribbon
-//    public List<Product> listProdcuts() {
-//        restTemplate.getForObject("http://PRODUCT-DATA-SERVICE/products",List.class);
-//        return new ArrayList<Product>();
-//    }
+    public List<Product> listProdcuts() {
+        restTemplate.getForObject("http://PRODUCT-DATA-SERVICE/products",List.class);
+        return new ArrayList<Product>();
+    }
 
 //    feign
-    @GetMapping("/products")
-    public List<Product> listProdcuts();
+//    @GetMapping("/products")
+//    public List<Product> listProdcuts();
 }

@@ -1,13 +1,13 @@
 package com.chan.szys.controller;
 
 import com.chan.szys.pojo.User;
-import com.chan.szys.service.LoginService;
 import com.chan.szys.util.CommonUtil;
 import com.chan.szys.util.JwtUtil;
+import com.chan.szys.util.response.RegisterResponse;
+import com.chan.szys.service.LoginService;
 import com.chan.szys.util.SensitiveWordFilter;
 import com.chan.szys.util.response.ChangenameResponse;
 import com.chan.szys.util.response.CommonResponse;
-import com.chan.szys.util.response.RegisterResponse;
 import com.chan.szys.util.ResponseCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

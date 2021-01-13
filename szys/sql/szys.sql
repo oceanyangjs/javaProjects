@@ -64,3 +64,24 @@ CREATE TABLE `user` (
   `update_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '登陆时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `sign`;
+CREATE TABLE `sign` (
+`id`  int NOT NULL ,
+`uid`  int NOT NULL COMMENT '玩家id' ,
+`info`  varchar(255) NOT NULL COMMENT '存储的信息 手机号等' ,
+`update_time`  timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP ,
+PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+;
+
+DROP TABLE IF EXISTS `info`;
+CREATE TABLE `info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` int(11) NOT NULL DEFAULT '0' COMMENT '1为限时，2为限数',
+  `num` int(11) NOT NULL DEFAULT '0' COMMENT '123分别表示（10道，30道，50道）',
+  `calcu` int(11) NOT NULL DEFAULT '0' COMMENT '1234表示加减乘除',
+  `digit` int(11) NOT NULL DEFAULT '0' COMMENT '12345表示12345位',
+  `operate` int(11) NOT NULL DEFAULT '0' COMMENT '操作数 2 3',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='竞赛信息';
